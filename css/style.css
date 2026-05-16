@@ -147,7 +147,7 @@ nav ul li a:hover {
   align-items: center;
   background: linear-gradient(135deg, #0a1e3d 0%, #1a3a6b 50%, #0d2847 100%);
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 75px;
 }
 
 .hero::before {
@@ -172,9 +172,16 @@ nav ul li a:hover {
 .hero-logo {
   width: 180px;
   height: auto;
-  margin-bottom: 25px;
+  margin: 0 auto 15px;
   border-radius: 0;
   box-shadow: none;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .hero-logo {
+    margin: 0 auto 15px;
+  }
 }
 
 .hero-content h1 {
