@@ -83,7 +83,7 @@ function animateCounters() {
 }
 
 // Trigger counters when section is visible
-const statsSection = document.querySelector('.stats-row');
+const statsSection = document.querySelector('.stats-section');
 if (statsSection) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
