@@ -181,4 +181,5 @@ footer .social-links a:hover{background:#1a73e8;color:#fff}
   .mvv-tabs{flex-wrap:wrap}
   .features-bar{margin-top:-40px}
   .section-header h2{font-size:1.5rem}
+  .testimonial-grid{grid-template-columns:1fr!important}
 }
