@@ -56,6 +56,12 @@ header .container {
   padding: 5px 20px;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
 .logo img {
   height: 55px;
   width: auto;
@@ -67,7 +73,7 @@ header .container {
 .logo-text {
   font-weight: 800;
   font-size: 1.3rem;
-  color: #00a651;
+  color: #1a73e8;
 }
 
 nav ul {
@@ -90,7 +96,7 @@ nav ul li a::after {
   left: 0;
   width: 0;
   height: 2px;
-  background: #00a651;
+  background: #1a73e8;
   transition: width 0.3s;
 }
 
@@ -99,11 +105,11 @@ nav ul li a:hover::after {
 }
 
 nav ul li a:hover {
-  color: #00a651;
+  color: #1a73e8;
 }
 
 .header-cta {
-  background: #00a651;
+  background: #1a73e8;
   color: #fff !important;
   padding: 10px 22px;
   border-radius: 50px;
@@ -113,9 +119,9 @@ nav ul li a:hover {
 }
 
 .header-cta:hover {
-  background: #008c44;
+  background: #1565c0;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0,166,81,0.3);
+  box-shadow: 0 5px 15px rgba(26,115,232,0.3);
 }
 
 .menu-toggle {
@@ -139,7 +145,7 @@ nav ul li a:hover {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #0a2e1a 0%, #1a5c35 50%, #0d3d1f 100%);
+  background: linear-gradient(135deg, #0a1e3d 0%, #1a3a6b 50%, #0d2847 100%);
   overflow: hidden;
   padding-top: 100px;
 }
@@ -163,6 +169,14 @@ nav ul li a:hover {
   align-items: center;
 }
 
+.hero-logo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 .hero-content h1 {
   font-size: 3rem;
   color: #fff;
@@ -171,7 +185,7 @@ nav ul li a:hover {
 }
 
 .hero-content h1 span {
-  color: #00e676;
+  color: #4dabf7;
 }
 
 .hero-content p {
@@ -208,14 +222,14 @@ nav ul li a:hover {
   width: 100%;
   height: 450px;
   object-fit: cover;
-  border: 3px solid #00e676;
+  border: 3px solid #4dabf7;
 }
 
 .btn-primary {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: #00a651;
+  background: #1a73e8;
   color: #fff;
   padding: 15px 35px;
   border-radius: 50px;
@@ -227,9 +241,9 @@ nav ul li a:hover {
 }
 
 .btn-primary:hover {
-  background: #00c95e;
+  background: #1e88e5;
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(0,166,81,0.4);
+  box-shadow: 0 10px 30px rgba(26,115,232,0.4);
 }
 
 .btn-secondary {
@@ -274,7 +288,7 @@ section {
 .stats-grid .counter {
   font-size: 2.5rem;
   font-weight: 800;
-  color: #00a651;
+  color: #1a73e8;
 }
 
 .stats-grid p {
@@ -294,7 +308,7 @@ section {
 }
 
 .section-header h2 span {
-  color: #00a651;
+  color: #1a73e8;
 }
 
 .section-header p {
@@ -351,7 +365,7 @@ section {
 }
 
 .service-card-content a {
-  color: #00a651;
+  color: #1a73e8;
   font-weight: 600;
   font-size: 0.9rem;
   display: inline-flex;
@@ -366,7 +380,7 @@ section {
 
 /* ===== DIFFERENTIALS ===== */
 .differentials {
-  background: linear-gradient(135deg, #0a2e1a 0%, #1a5c35 100%);
+  background: linear-gradient(135deg, #0a1e3d 0%, #1a3a6b 100%);
   color: #fff;
 }
 
@@ -402,14 +416,14 @@ section {
 .diff-card .icon {
   width: 70px;
   height: 70px;
-  background: rgba(0,230,118,0.15);
+  background: rgba(77,171,247,0.15);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 20px;
   font-size: 1.8rem;
-  color: #00e676;
+  color: #4dabf7;
 }
 
 .diff-card h3 {
@@ -450,7 +464,7 @@ section {
 }
 
 .about-content h2 span {
-  color: #00a651;
+  color: #1a73e8;
 }
 
 .about-content > p {
@@ -468,9 +482,9 @@ section {
 
 .mvv-tabs button {
   padding: 10px 20px;
-  border: 2px solid #00a651;
+  border: 2px solid #1a73e8;
   background: transparent;
-  color: #00a651;
+  color: #1a73e8;
   border-radius: 50px;
   font-weight: 600;
   cursor: pointer;
@@ -480,15 +494,15 @@ section {
 
 .mvv-tabs button.active,
 .mvv-tabs button:hover {
-  background: #00a651;
+  background: #1a73e8;
   color: #fff;
 }
 
 .mvv-content {
-  background: #f0faf4;
+  background: #eef4fc;
   padding: 25px;
   border-radius: 12px;
-  border-left: 4px solid #00a651;
+  border-left: 4px solid #1a73e8;
 }
 
 .mvv-content p {
@@ -589,13 +603,13 @@ section {
   top: 20px;
   right: 25px;
   font-size: 2.5rem;
-  color: #00a651;
+  color: #1a73e8;
   opacity: 0.15;
 }
 
 /* ===== CTA SECTION ===== */
 .cta-section {
-  background: linear-gradient(135deg, #00a651 0%, #00c95e 100%);
+  background: linear-gradient(135deg, #1a73e8 0%, #1e88e5 100%);
   text-align: center;
   padding: 80px 0;
 }
@@ -620,7 +634,7 @@ section {
   align-items: center;
   gap: 10px;
   background: #fff;
-  color: #00a651;
+  color: #1a73e8;
   padding: 16px 40px;
   border-radius: 50px;
   font-weight: 700;
@@ -668,12 +682,12 @@ section {
 .contact-item .icon {
   width: 50px;
   height: 50px;
-  background: rgba(0,166,81,0.15);
+  background: rgba(26,115,232,0.15);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #00e676;
+  color: #4dabf7;
   font-size: 1.2rem;
   flex-shrink: 0;
 }
@@ -690,7 +704,7 @@ section {
 }
 
 .contact-item a:hover {
-  color: #00e676;
+  color: #4dabf7;
 }
 
 .contact-form {
@@ -714,7 +728,7 @@ section {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #00a651;
+  border-color: #1a73e8;
 }
 
 .contact-form textarea {
@@ -758,7 +772,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  background: #00a651;
+  background: #1a73e8;
   transform: translateY(-3px);
 }
 
