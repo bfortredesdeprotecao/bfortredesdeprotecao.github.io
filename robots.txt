@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bfortprotecoes.com.br/sitemap.xml
