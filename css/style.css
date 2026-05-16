@@ -141,7 +141,7 @@ nav ul li a:hover {
   align-items: center;
   background: linear-gradient(135deg, #0a2e1a 0%, #1a5c35 50%, #0d3d1f 100%);
   overflow: hidden;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .hero::before {
